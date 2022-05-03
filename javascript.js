@@ -238,3 +238,30 @@ console.log(fruits);*/
 
 // DOM
 
+// // single element selector
+// document.getElementById()
+// document.querySelector()
+
+
+
+
+// // multiple elemrnt selector
+// document.querySelectorAll()
+
+
+// const items =document.querySelectorAll('.item')
+// items.forEach((item)=>{
+//     console.log(item)
+// // })
+
+// const ul = document.querySelector('.items')
+// // ul.lastElementChild.remove();
+// ul.firstElementChild.textContent='hello';
+// ul.children[2].innerText='KARAMA';
+// ul.lastElementChild.innerHTML='<h2>hello world</h2>'
+
+// const btn = document.querySelector('.btn')
+// btn.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     console.log(e.target.id)
+// })
